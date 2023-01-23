@@ -1,0 +1,35 @@
+.sun-graphic {
+  background-color: #fdf85d;
+  width: 35rem;
+  height: 35rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 60px 10px var(--red);
+}
+
+.sun-graphic::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+  background-color: var(--red);
+  border-radius: 50%;
+}
+.sun-graphic_animation_blurred {
+  animation: pulsate 2.5s ease-in-out alternate-reverse infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    opacity: 0.75;
+  }
+  100% {
+    transform: scale(1.02);
+    opacity: 1;
+  }
+}

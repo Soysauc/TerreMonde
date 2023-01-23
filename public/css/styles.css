@@ -123,16 +123,6 @@ header .navbar a:hover {
   background-position: center;
 }
 
-.sun_graphic {
-  background: var(--red);
-  width: 35rem;
-  height: 35rem;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-}
 
 .home .content {
   text-align: center;
@@ -143,41 +133,6 @@ header .navbar a:hover {
 
 .home .content h3 {
   transform: translate(30%, -60%);
-}
-
-.art_basel {
-  text-align: center;
-  padding-top: 20rem;
-}
-
-.art_basel_text_2 {
-  padding-top: 5rem;
-}
-
-.art_basel img {
-  height: 4vh;
-}
-
-.art_basel h1 {
-  font-size: 4.5rem;
-}
-.art_basel h2 {
-  padding-top: 4rem;
-  font-size: 3.5rem;
-}
-.art_basel h3 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 5rem;
-  padding-top: 5rem;
-}
-
-#art_basel_title {
-  font-family: "Chakra Petch", sans-serif;
-  padding-top: 6rem;
-}
-
-#bvcooper {
-  height: 4vh;
 }
 
 .who_we_are .content {
@@ -372,9 +327,7 @@ footer img {
 .banner {
   left: 50%;
   top: 50%;
-  /*margin-right: -50%;*/
   transform: translate(-50%, -50%);
-
   margin: 0;
   position: absolute;
   align-items: center;
@@ -392,11 +345,6 @@ footer img {
   animation-fill-mode: forwards;
 }
 
-.art_basel {
-  animation: fadeInAnimation ease 4s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
 .who_we_are {
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;

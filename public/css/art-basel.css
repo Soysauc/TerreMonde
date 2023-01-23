@@ -1,0 +1,37 @@
+.art-basel {
+  text-align: center;
+  padding-top: 20rem;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.art-basel_text_2 {
+  padding-top: 5rem;
+}
+
+.art-basel img {
+  height: 4vh;
+}
+
+.art-basel h1 {
+  font-size: 4.5rem;
+}
+.art-basel h2 {
+  padding-top: 4rem;
+  font-size: 3.5rem;
+}
+.art-basel h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5rem;
+  padding-top: 5rem;
+}
+
+#art-basel_title {
+  font-family: "Chakra Petch", sans-serif;
+  padding-top: 6rem;
+}
+
+#bvcooper {
+  height: 4vh;
+}
