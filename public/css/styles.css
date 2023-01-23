@@ -95,7 +95,7 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-  color: #000;
+  color: #fdf85d;
 }
 
 #menu-bar {
@@ -122,7 +122,6 @@ header .navbar a:hover {
   background-size: cover;
   background-position: center;
 }
-
 
 .home .content {
   text-align: center;
@@ -161,15 +160,6 @@ header .navbar a:hover {
   display: flex;
   flex-wrap: wrap;
 }
-#camel {
-  height: 45vh;
-  border-radius: 5rem;
-  align-items: left;
-  text-align: left;
-  justify-content: left;
-
-  transform: translate(400%, 0%);
-}
 
 .style .content {
   padding: 2rem 9%;
@@ -195,67 +185,6 @@ header .navbar a:hover {
   font-size: 4rem;
   margin: 2rem;
   text-align: left;
-}
-
-footer {
-  scroll-snap-stop: always;
-  scroll-snap-align: end;
-  height: 30vh;
-  background: #394c58;
-  text-align: center;
-  display: block;
-  position: relative;
-  width: 100%;
-}
-
-footer .share {
-  display: block;
-  gap: 1.5rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-footer .contact {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  padding: 2.5rem 1rem;
-  color: #fff;
-  font-weight: normal;
-  font-size: 2rem;
-}
-
-footer .contact span {
-  color: #fff;
-}
-
-footer .contact a {
-  color: #fff;
-}
-
-footer .contact a:hover {
-  color: var(--red);
-}
-
-footer .credit {
-  padding: 2.5rem 1rem;
-  color: #fff;
-  font-weight: normal;
-  font-size: 2rem;
-}
-
-footer .credit span a {
-  color: #fff;
-}
-footer a {
-  font-size: 2rem;
-  color: #fff;
-}
-
-footer img {
-  height: 5vh;
-  padding-right: 1.25rem;
 }
 
 #scroll-top {
@@ -382,5 +311,17 @@ footer img {
   }
   100% {
     opacity: 0;
+  }
+}
+#camel {
+  height: 45vh;
+  border-radius: 5rem;
+  text-align: left;
+  transform: translate(400%, 0%);
+}
+
+@media screen and (max-width: 960px) {
+  #camel {
+    left: auto;
   }
 }

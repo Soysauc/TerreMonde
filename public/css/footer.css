@@ -1,0 +1,44 @@
+footer {
+  scroll-snap-stop: always;
+  scroll-snap-align: end;
+  height: 30vh;
+  background: #394c58;
+  text-align: center;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+footer .share {
+  display: block;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer .contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2.5rem 1rem;
+  color: #fff;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+footer .contact span {
+  color: #fff;
+}
+
+footer .credit {
+  padding: 2.5rem 1rem;
+  color: #fff;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+footer img {
+  height: 5vh;
+  padding-right: 1.25rem;
+}
