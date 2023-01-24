@@ -3,5 +3,6 @@
 @import url("./sun.css");
 @import url("./navbar.css");
 @import url("./noscript.css");
+@import url("./normalize.css");
 
 @import url("./styles.css");

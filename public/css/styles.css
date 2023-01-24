@@ -20,14 +20,9 @@
   transition: all 0.2s linear;
 }
 
-*::selection {
-  background: var(--sand);
-  color: #fff;
-}
-
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
 }
