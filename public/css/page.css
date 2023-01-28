@@ -1,7 +1,4 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');*/
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap");
 
 :root {
   --red: #ff6249;
@@ -30,22 +27,19 @@ html {
 body {
   background: var(--sand);
 }
-body h3 {
-  font-size: 7rem;
-}
-body h2 {
-  font-size: 3rem;
-}
-body h1 {
-  font-size: 4rem;
-}
-body p {
-  font-size: 2.5rem;
-}
 
 section {
   height: 100vh;
   scroll-snap-align: start;
+}
+
+h2 {
+  font-size: 4rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 2rem;
 }
 
 .container {
@@ -53,44 +47,6 @@ section {
   overflow-y: scroll;
   height: 100vh;
   scroll-snap-stop: always;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: var(--red);
-  padding: 2rem 9%;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-}
-
-header .logo {
-  font-size: 3.5rem;
-  font-weight: bolder;
-  color: #fff;
-  padding-right: 0.5rem;
-  font-family: "Josefin Sans", sans-serif;
-}
-
-header .logo img {
-  padding-right: 0.5rem;
-  height: 9vh;
-  padding-top: 2.25rem;
-}
-
-header .navbar a {
-  font-size: 2rem;
-  margin-left: 2rem;
-  color: #fff;
-}
-
-header .navbar a:hover {
-  color: #fdf85d;
 }
 
 #menu-bar {
@@ -107,34 +63,12 @@ header .navbar a:hover {
   display: none;
 }
 
-.home {
-  padding-top: 5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  min-height: 100vh;
-  align-items: center;
-  background-size: cover;
-  background-position: center;
-}
-
-.home .content {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding-top: 6.5rem;
-}
-
-.home .content h3 {
-  transform: translate(30%, -60%);
-}
-
 .who_we_are .content {
   padding: 2rem 9%;
 }
 
 .who_we_are img {
-  padding-top: 11.25rem;
+  padding-top: 10rem;
   height: 60vh;
   display: flex;
   flex-wrap: wrap;
@@ -216,38 +150,6 @@ header .navbar a:hover {
   top: -120%;
 }
 
-.banner .sun_graphic {
-  z-index: 1000;
-  height: 60vh;
-  width: 60vh;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  left: 50%;
-  top: 50%;
-  margin-right: -50%;
-
-  transform: translate(-50%, -50%);
-}
-
-.logo_sun {
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  animation: fadeInandOutAnimation ease 4s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-.logo_sun img {
-  height: 20vh;
-}
-
-.logo_sun h1 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 7rem;
-}
-
 .banner {
   left: 50%;
   top: 50%;
@@ -259,12 +161,6 @@ header .navbar a:hover {
   display: flex;
   text-align: center;
   animation: fadeInandOutAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-.home {
-  animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -315,8 +211,13 @@ header .navbar a:hover {
   transform: translate(400%, 0%);
 }
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
   #camel {
     left: auto;
+  }
+} */
+@media (max-width: 450px) {
+  #menu-bar {
+    display: initial;
   }
 }

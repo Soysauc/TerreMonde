@@ -1,5 +1,5 @@
 .sun-graphic {
-  background-color: #fdf85d;
+  background-color: var(--red);
   width: 35rem;
   height: 35rem;
   border-radius: 50%;
@@ -7,6 +7,14 @@
   align-items: center;
   text-align: center;
   box-shadow: 0 0 60px 10px var(--red);
+}
+
+.sun__text {
+  font-size: 4rem;
+  z-index: 1;
+  position: relative;
+  margin-top: -15px;
+  margin-left: 200px;
 }
 
 .sun-graphic::before {
@@ -21,6 +29,37 @@
 }
 .sun-graphic_animation_blurred {
   animation: pulsate 2.5s ease-in-out alternate-reverse infinite;
+}
+.banner .sun_graphic {
+  z-index: 1000;
+  height: 60vh;
+  width: 60vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  left: 50%;
+  top: 50%;
+  margin-right: -50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.logo_sun {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  animation: fadeInandOutAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.logo_sun img {
+  height: 20vh;
+}
+
+.logo_sun h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 7rem;
 }
 
 @keyframes pulsate {
