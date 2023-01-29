@@ -42,3 +42,12 @@ footer img {
   height: 5vh;
   padding-right: 1.25rem;
 }
+@media (max-width: 660px) {
+  .content p {
+    font-size: 1.75rem;
+    padding-bottom: 15px;
+  }
+  .content h2 {
+    font-size: 2rem;
+  }
+}
